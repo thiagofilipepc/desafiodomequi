@@ -218,6 +218,47 @@ button {
     margin-right: 200px;
 }
 
+header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arial", "Helvitica", "Sans-serif";
+    box-shadow: 0 2px 4px 0 rgb(0, 0, 0 / 8%);
+}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+}
+
+.logo-menu {
+    width: auto;
+    height: auto;
+    max-width: 108px;
+    margin-left: 144px;
+    margin-top: 5px;
+}
+
+.topo {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #606060;
+}
+
+.canto {
+    font-size: 14px;
+    color: #606060;
+}
+
+
+
+
+
+
 
 
 
