@@ -248,3 +248,158 @@ button {
 
 
 /*Lincoln footer-social-media*/
+
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.rodape {
+    padding: 60px 0px 20px 0px;
+    font-family: "Arial", "Helvitica", "Sans-serif";
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: auto;
+}
+
+li {
+    margin: 10px 0px;
+    color: #363636;
+    font-weight: 600;
+    opacity: 1;
+    line-height: 1.25;
+}
+
+li a {
+    color: #292929;
+    font-weight: 500;
+    opacity: 0.8;
+    line-height: 1.25;
+    text-decoration: none;
+}
+
+li a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer-title {
+    font-weight: 500;
+    color: #292929;
+    opacity: 1;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+.col {
+    /* max-width: 250px; */
+    max-width: 20%;
+    padding: 0px 0.75rem 0px 0px;
+    margin-right: 1.25rem;
+    display: blocks;
+    flex-grow: 1;
+}
+
+.social-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.social-block {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copywright {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stores-block {
+    display: flex;
+    align-items: center;
+}
+
+.stores-item img {
+    width: 140px;
+    margin-right: 10px;
+}
+.stores-item.apple img {
+    width: 125px;
+    margin-right: 10px;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.links {
+    color: #292929;
+    font-weight: 400;
+    opacity: 0.9;
+    line-height: 1.25;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.stores-item.logofooter img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-container {
+        flex-direction:column;
+    }
+
+    .col {
+        /* max-width: 250px; */
+        max-width: none;
+        width: 100%;
+    }
+
+    .social-block {
+        flex-direction: column;
+    }
+
+    .stores-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copywright {
+        flex-direction: column;
+    }
+    .social-icons-block {
+        margin-bottom: 15px;
+    }
+
+    .stores-item.apple img {
+        margin: 10px 0px 10px 0px
+    }
+
+    .stores-item img {
+        margin: 10px 0px 10px 0px
+    }
+    
+}
