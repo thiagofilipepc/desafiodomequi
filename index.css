@@ -48,7 +48,36 @@
 
 
 /*Condé six-big-cards*/
+.line{
+    display: flex;
+    justify-content: space-around;
+    font-family: "roboto", "Helvitica", "Sans-serif";
+    color: #292929;
+}
 
+.coluna-card{
+    width: 407.5px;
+    height: 411.11px;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    }
+
+img{
+    width: 364.5px;
+    height: 157.11px;
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-description{
+    font-size: 14px;
+}
+
+.card-button{
+    font-size: 14px;
+}
 
 
 
