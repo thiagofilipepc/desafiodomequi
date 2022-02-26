@@ -133,7 +133,7 @@ img {
 
 .text-card {
     text-align: center;
-    width: 240px;
+    width: 250px;
     font-size: 16px;
     margin-top: 2px;
 }
@@ -163,7 +163,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 
@@ -217,7 +217,6 @@ button {
     margin-top: 65px;
     margin-right: 200px;
 }
-
 
 
 
